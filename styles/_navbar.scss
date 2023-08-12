@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  nav {
+    display: flex;
+    gap: 2rem;
+    a {
+      font-size: 1.3rem;
+      color: $black;
+    }
+  }
+  .cta-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .cta-link {
+      background-color: $black;
+      color: white;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 40px;
+      font-size: 0.8rem;
+      .icon {
+        width: 25px;
+        height: 25px;
+      }
+    }
+    .call-link {
+      background-color: $black;
+      padding: 0.7rem 1.5rem;
+      border-radius: 50px;
+      color: $white;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+}
