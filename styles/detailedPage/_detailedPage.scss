@@ -1,0 +1,99 @@
+.detailed-page-hero-section {
+  background-color: red;
+  display: flex;
+  padding: 1rem 3rem;
+  width: 100%;
+  @media (max-width: 768px) {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .left-detailed-hero {
+    width: 40%;
+    background-color: teal;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  .mid-detailed-hero {
+    padding: 0.6rem 2rem;
+    width: 47%;
+    background-color: rebeccapurple;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    .detailedPagePricing {
+      display: flex;
+      gap: 2rem;
+      margin-top: 0.5rem;
+      align-items: center;
+      .price {
+        font-size: 1.3rem;
+      }
+      .discount-Code {
+        background-color: rgba(0, 255, 255, 0.744);
+        padding: 0.4rem;
+        border-radius: 5px;
+        display: flex;
+        gap: 0.3rem;
+        .discountIcon {
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .selected-item-details {
+      margin: 1rem 0;
+      .top-item-details {
+        border: 1px solid rgb(155, 155, 212);
+        width: 83%;
+        padding: 0.4rem 0.4rem;
+        border-radius: 3rem;
+        display: flex;
+        justify-content: space-between;
+        //         gap: 1rem;
+        p {
+          padding: 0.3rem 2rem;
+          border-radius: 3rem;
+        }
+        .activeDetail {
+          background-color: blue;
+          color: white;
+        }
+      }
+      .bottom-item-details {
+        background-color: rgb(31, 139, 31);
+        padding: 0.7rem;
+        .details-option {
+          display: flex;
+          gap: 1rem;
+        }
+      }
+    }
+  }
+  .right-detailed-hero {
+    width: 13%;
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 2.5rem 2rem;
+    gap: 1rem;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    .cta {
+      display: flex;
+      border-radius: 8px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 1.2rem 1rem;
+      .ctaBtn {
+        font-size: 2rem;
+      }
+    }
+    .active-cta {
+      color: white;
+      background-color: rgb(54, 108, 234);
+    }
+  }
+}
