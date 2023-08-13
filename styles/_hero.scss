@@ -4,6 +4,12 @@
   justify-content: space-between;
   padding: 0rem 5rem;
   height: 50vh;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 0 1rem;
+    width: 100vw;
+    height: auto;
+  }
   .middle {
     width: 50%;
     height: 100%;
@@ -15,6 +21,7 @@
     background-size: contain;
     background-position: center;
     position: relative;
+
     &:before {
       content: "";
       position: absolute;
@@ -41,11 +48,29 @@
     //   }
     // }
   }
+  .left {
+    @media (max-width: 768px) {
+      background: rgb(10, 10, 10, 0.5) url("/products/yoghurt-cup.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      position: relative;
+    }
+  }
   .left,
   .right {
     width: 25%;
+    @media (max-width: 768px) {
+      width: 100%;
+      padding: 0.5rem 1rem;
+      height: auto;
+    }
   }
   .left {
+    @media (max-width: 768px) {
+      width: 100%;
+      height: auto;
+    }
     .hero-title {
       font-size: 4rem;
       font-weight: 500;
@@ -60,6 +85,11 @@
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
+    @media (max-width: 768px) {
+      width: 100%;
+      height: auto;
+      gap: 1rem;
+    }
     .hero-card {
       display: flex;
       align-items: center;
