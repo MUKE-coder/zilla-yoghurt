@@ -1,23 +1,37 @@
 .detailed-page-hero-section {
-  background-color: red;
+  background-color: #ffebfd;
   display: flex;
   padding: 1rem 3rem;
-  width: 100%;
+  width: 100vw;
+  font-family: $default-font;
+  height: 73vh;
   @media (max-width: 768px) {
     padding: 1rem;
+    height: auto;
     flex-direction: column;
   }
   .left-detailed-hero {
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
     width: 40%;
-    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //     background-color: teal;
     @media (max-width: 768px) {
       width: 100%;
+    }
+    img {
+      box-shadow: rgba(0, 0, 0, 0.25) 5px 25px 20px -20px;
     }
   }
   .mid-detailed-hero {
     padding: 0.6rem 2rem;
     width: 47%;
-    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    //     background-color: rebeccapurple;
     @media (max-width: 768px) {
       width: 100%;
     }
@@ -30,8 +44,9 @@
         font-size: 1.3rem;
       }
       .discount-Code {
-        background-color: rgba(0, 255, 255, 0.744);
-        padding: 0.4rem;
+        background-color: black;
+        color: white;
+        padding: 0.5rem 1rem;
         border-radius: 5px;
         display: flex;
         gap: 0.3rem;
@@ -43,7 +58,7 @@
     .selected-item-details {
       margin: 1rem 0;
       .top-item-details {
-        border: 1px solid rgb(155, 155, 212);
+        border: 1px solid rgb(206, 206, 216);
         width: 83%;
         padding: 0.4rem 0.4rem;
         border-radius: 3rem;
@@ -60,7 +75,7 @@
         }
       }
       .bottom-item-details {
-        background-color: rgb(31, 139, 31);
+        //         background-color: rgb(31, 139, 31);
         padding: 0.7rem;
         .details-option {
           display: flex;
@@ -71,7 +86,9 @@
   }
   .right-detailed-hero {
     width: 13%;
-    background-color: yellow;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background-color: black;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -81,12 +98,17 @@
       width: 100%;
     }
     .cta {
+      color: white;
+      border: 1px solid white;
       display: flex;
       border-radius: 8px;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       padding: 1.2rem 1rem;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
       .ctaBtn {
         font-size: 2rem;
       }

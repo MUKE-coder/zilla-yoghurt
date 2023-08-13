@@ -40,7 +40,7 @@ export default function Hero() {
       </div>
       <div className="middle"></div>
       <div className="right">
-        <div className="hero-card">
+        <Link href={"/detailed-page"} className="hero-card">
           <div className="hero-icon">
             <Image src={heroImage} alt="side cup" fill />
           </div>
@@ -51,8 +51,8 @@ export default function Hero() {
               quam?
             </p>
           </div>
-        </div>
-        <div className="hero-card">
+        </Link>
+        <Link href={"/detailed-page"} className="hero-card">
           <div className="hero-icon">
             <Image src={heroImage} alt="side cup" fill />
           </div>
@@ -63,8 +63,8 @@ export default function Hero() {
               quam?
             </p>
           </div>
-        </div>
-        <div className="hero-card">
+        </Link>
+        <Link href={"/detailed-page"} className="hero-card">
           <div className="hero-icon">
             <Image src={heroImage} alt="side cup" fill />
           </div>
@@ -75,7 +75,7 @@ export default function Hero() {
               quam?
             </p>
           </div>
-        </div>
+        </Link>
       </div>
     </section>
   );

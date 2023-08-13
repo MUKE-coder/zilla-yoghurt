@@ -9,7 +9,12 @@ export default function page() {
   return (
     <div className="detailed-page-hero-section">
       <div className="left-detailed-hero">
-        <h1>left</h1>
+        <Image
+          src={"/products/yoghurt-cup.PNG"}
+          alt=""
+          width={300}
+          height={300}
+        />
       </div>
       <div className="mid-detailed-hero">
         <h1>Yorgut</h1>

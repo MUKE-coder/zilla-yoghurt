@@ -6,7 +6,7 @@ import CategoryList from "./CategoryList";
 export default function Header() {
   return (
     <section className="header-section">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <CategoryList />
     </section>

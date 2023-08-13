@@ -1,28 +1,11 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { BiLogoFacebook, BiLogoInstagram } from "react-icons/bi";
-import { IoMdMenu } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
-import siteConfig from "@/utils/siteConfig";
-import Image from "next/image";
-
-export default function Navbar() {
+export default function Banner() {
   return (
-    <header>
-      <Link href="/" className="logo">
-        <Image
-          src={siteConfig.logo}
-          alt={siteConfig.companyName}
-          height={60}
-          width={95.72}
-        />
-      </Link>
-      <nav>
-        <Link href="#">Zilla Flavored Milk</Link>
-        <Link href="#">Strawberry Yoghurt</Link>
-        <Link href="#">Vanilla Yoghurt</Link>
-      </nav>
+    <div className="banner">
       <div className="cta-links">
         <Link href="#" className="call-link">
           <TfiHeadphoneAlt className="icon" />
@@ -38,9 +21,6 @@ export default function Navbar() {
           <FaWhatsapp className="icon" />
         </Link>
       </div>
-      <div className="hamMenu">
-        <IoMdMenu />
-      </div>
-    </header>
+    </div>
   );
 }

@@ -1,38 +1,17 @@
-header {
+.banner {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem 5rem;
+  display: none;
+  background-color: green;
   @media (max-width: 768px) {
-    padding: 0.4rem 1rem;
-  }
-  nav {
     display: flex;
-    gap: 2rem;
-    display: none;
-    @media (max-width: 768px) {
-      flex-direction: column;
-      background-color: red;
-      width: 100%;
-      position: absolute;
-      left: 0;
-      top: 7rem;
-    }
-    a {
-      font-size: 1.3rem;
-      color: $black;
-    }
-  }
-  .showNav {
+    justify-content: flex-end;
+    background-color: red;
     display: block;
   }
   .cta-links {
     display: flex;
     align-items: center;
     gap: 1rem;
-    @media (max-width: 768px) {
-      display: none;
-    }
     .cta-link {
       background-color: $black;
       color: white;
@@ -57,13 +36,6 @@ header {
       display: flex;
       align-items: center;
       gap: 0.5rem;
-    }
-  }
-  .hamMenu {
-    display: none;
-    @media (max-width: 768px) {
-      font-size: 3rem;
-      display: block;
     }
   }
 }

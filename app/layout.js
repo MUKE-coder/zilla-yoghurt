@@ -1,5 +1,7 @@
 import Navbar from "@/components/Navbar";
 import "../styles/main.scss";
+import Footer from "@/components/Footer";
+import Banner from "@/components/Banner";
 
 export const metadata = {
   title: "Zilla Website",
@@ -10,8 +12,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <Banner />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
