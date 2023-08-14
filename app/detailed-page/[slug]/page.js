@@ -29,9 +29,9 @@ export default function page({ params: { slug } }) {
           <Image src={product.image} alt="" width={300} height={300} />
         </div>
         <div className="mid-detailed-hero">
-          <h1>{product.slug}</h1>
+          <h1>{product.title}</h1>
 
-          <p>{product.detailed_description}</p>
+          <p>{product.brief_description}</p>
           <div className="detailedPagePricing">
             <h5 className="price">$5036</h5>
             <h5 className="discount-Code">
@@ -56,11 +56,7 @@ export default function page({ params: { slug } }) {
                 </div>
                 <div className="detail-infor">
                   <h2>Natural Organic Yorghut</h2>
-                  <p>
-                    lorem The requested resource isn't a valid image for
-                    /images/yoghurt-cup-2.PNG received text/html; charset=utf-8
-                    - wait compiling...
-                  </p>
+                  <p>{product.detailed_description}</p>
                   <h2>Natural Organic Yorghut</h2>
                 </div>
               </div>
@@ -83,7 +79,7 @@ export default function page({ params: { slug } }) {
         </div>
       </div>
       <div className="similarProducts">
-        <h1>similarProducts</h1>
+        <h1>SimilarProducts</h1>
         <div className="productsWrapper">
           {similarProducts.map((product) => {
             return (

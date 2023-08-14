@@ -35,7 +35,7 @@ export const products = {
 };
 export const instaLink = {
   link: [
-    "https://instagram.febb3-1.fna.fbcdn.net/v/t39.30808-6/361926692_18294877855113407_3431584735888589506_n.jpg?stp=dst-jpg_e15_s750x750&_nc_ht=instagram.febb3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=msBQlB6-ihUAX8SqIOS&edm=AP_V10EAAAAA&ccb=7-5&oh=00_AfBZlqLoF-ar-fZRndLtEdJ4ZdqfclONnpBrzIJLyFDBRQ&oe=64C7DDB1&_nc_sid=2999b8",
+    "/products/zilab.png",
     "https://instagram.febb3-1.fna.fbcdn.net/v/t39.30808-6/363315645_663897389105434_1980897961785038002_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08&_nc_ht=instagram.febb3-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=QZLx8D7oC4sAX_wJBPd&edm=AP_V10EAAAAA&ccb=7-5&oh=00_AfASh5yfGLCsibNEAwYTpPz3ryqt1zG5tm5fzSHx2LZ9ug&oe=64C6D06C&_nc_sid=2999b8",
     "https://instagram.febb3-1.fna.fbcdn.net/v/t39.30808-6/363331281_18294802069113407_6243803664992796997_n.jpg?stp=dst-jpg_e35_s640x640_sh0.08&_nc_ht=instagram.febb3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=8zFATDAWq3QAX-eM8N_&edm=AP_V10EAAAAA&ccb=7-5&oh=00_AfD4rIcAw7gEvGEyAdT8c1BnnfCDqkDhFlM8ryLVeeNfSg&oe=64C66DC6&_nc_sid=2999b8",
     "https://instagram.febb3-1.fna.fbcdn.net/v/t39.30808-6/361637606_18294629692113407_1311297319357580042_n.jpg?stp=dst-jpg_e35_s640x640_sh0.08&_nc_ht=instagram.febb3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=QQ2BIWg_sMUAX8RibFT&edm=AP_V10EAAAAA&ccb=7-5&oh=00_AfDp3NuEQtSHuZcgFrimWj2xuCBxAOMdXZiaQftO8DQHiw&oe=64C78E34&_nc_sid=2999b8",

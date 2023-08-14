@@ -9,7 +9,7 @@ header {
   nav {
     display: flex;
     gap: 2rem;
-    display: none;
+    // display: none;
     @media (max-width: 768px) {
       flex-direction: column;
       background-color: red;
@@ -18,11 +18,12 @@ header {
       left: 0;
       top: 7.7rem;
       z-index: 300;
-      // display: block;
+      visibility: hidden;
       text-align: center;
       padding: 2rem 1rem;
       gap: 2rem;
       flex-wrap: wrap;
+      // display: none;
     }
     a {
       font-size: 1.3rem;
@@ -30,7 +31,9 @@ header {
     }
   }
   .showNav {
-    display: block;
+    visibility: visible;
+    // display: inline-block;
+    gap: 2rem;
   }
   .cta-links {
     display: flex;

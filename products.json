@@ -48,7 +48,7 @@
     "brief_description": "Delightful strawberry-flavored yorghut for a burst of fruity taste.",
     "detailed_description": "Our strawberry yorghut is infused with real strawberries, providing a deliciously fruity and refreshing flavor. It's a great option for those who love a hint of sweetness in their yogurt.",
     "keywords": ["yorghut", "yogurt", "strawberry", "fruit"],
-    "image": "/products/zilab.png",
+    "image": "/products/dtrawberry.png",
     "initialPrice": 400049,
     "currentPrice": 200099,
     "images": ["strawberry_yorghut_image1.jpg", "strawberry_yorghut_image2.jpg"]
@@ -61,7 +61,7 @@
     "brief_description": "Tangy and sweet blueberry yorghut with real blueberries.",
     "detailed_description": "Enjoy the burst of antioxidants and vitamins from our blueberry yorghut. It's a perfect combination of tangy and sweet flavors, ideal for a quick and healthy snack.",
     "keywords": ["yorghut", "yogurt", "blueberry", "antioxidants"],
-    "image": "/products/zilab.png",
+    "image": "/products/van.png",
     "initialPrice": 30049,
     "currentPrice": 20099,
     "images": ["blueberry_yorghut_image1.jpg", "blueberry_yorghut_image2.jpg"]
@@ -74,7 +74,7 @@
     "brief_description": "Smooth and creamy vanilla yorghut with a hint of sweetness.",
     "detailed_description": "Our vanilla yorghut is made using real vanilla beans, giving it a delightful aroma and taste. It's a classic flavor loved by both kids and adults.",
     "keywords": ["yorghut", "yogurt", "vanilla", "creamy"],
-    "image": "/products/zilab.png",
+    "image": "/products/redMilk.png",
     "initialPrice": 30000,
     "currentPrice": 20000,
     "images": ["vanilla_yorghut_image1.jpg", "vanilla_yorghut_image2.jpg"]
