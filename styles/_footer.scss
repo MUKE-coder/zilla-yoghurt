@@ -24,7 +24,9 @@ $primColor: #08004f;
   @media (max-width: 768px) {
     grid-template-columns: repeat(auto-fit, minmax(15rem, 2fr));
   }
-
+  @media (max-width: 370px) {
+    width: 100vw;
+  }
   .siteMap {
     gap: 1rem;
     .footer-title,

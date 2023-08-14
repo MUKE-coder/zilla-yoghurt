@@ -1,17 +1,17 @@
 .banner {
   display: flex;
   display: none;
-  background-color: green;
+
   @media (max-width: 768px) {
     display: flex;
     justify-content: flex-end;
-    background-color: red;
+    padding: 0.4rem;
     display: block;
   }
   .cta-links {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     .cta-link {
       background-color: $black;
       color: white;

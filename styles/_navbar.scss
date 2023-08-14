@@ -16,7 +16,13 @@ header {
       width: 100%;
       position: absolute;
       left: 0;
-      top: 7rem;
+      top: 7.7rem;
+      z-index: 300;
+      // display: block;
+      text-align: center;
+      padding: 2rem 1rem;
+      gap: 2rem;
+      flex-wrap: wrap;
     }
     a {
       font-size: 1.3rem;

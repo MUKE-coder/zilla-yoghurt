@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Yorghut",
+    "description": "Explore our wide range of yorghut products, packed with essential nutrients and delicious flavors.",
+    "image": "/products/yoghurt-cup.png",
+    "keywords": ["yorghut", "yogurt", "healthy", "probiotics"],
+    "products": [
+      "Fresh Yorghut",
+      "Organic Yorghut",
+      "Greek Yorghut",
+      "Strawberry Yorghut",
+      "Blueberry Yorghut",
+      "Vanilla Yorghut"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Milk Products",
+    "description": "Discover our assortment of milk products, sourced from the finest dairy farms and available in various varieties.",
+    "image": "/products/milk.png",
+    "keywords": ["milk products", "dairy", "healthy", "nutritious"],
+    "products": [
+      "Fresh Cow's Milk",
+      "Organic Goat's Milk",
+      "A2 Milk",
+      "Low-Fat Milk",
+      "Chocolate Milk",
+      "Almond Milk"
+    ]
+  }
+]

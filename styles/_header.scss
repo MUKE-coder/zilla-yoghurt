@@ -3,4 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 70vh;
+  @media (max-width: 768px) {
+    min-height: auto;
+  }
 }

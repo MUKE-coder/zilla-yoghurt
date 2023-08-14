@@ -119,3 +119,25 @@
     }
   }
 }
+.similarProducts {
+  // background-color: green;
+  padding: 1rem 3rem;
+  .productsWrapper {
+    // flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+    gap: 1.2rem;
+    .similar-prod {
+      .prod-card {
+        display: flex;
+        border-radius: 7px;
+        justify-content: center;
+        padding: 1rem;
+        align-items: center;
+        border: 2px solid rgb(158, 130, 130);
+        flex-direction: column;
+        // background-color: red;
+      }
+    }
+  }
+}
