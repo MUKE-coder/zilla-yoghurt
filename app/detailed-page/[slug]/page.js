@@ -1,11 +1,12 @@
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
-import React from "react";
+
 import { BsSave2 } from "react-icons/bs";
 import { RiMovie2Line } from "react-icons/ri";
 import { AiOutlinePlus } from "react-icons/ai";
 import { MdDocumentScanner } from "react-icons/md";
 import getProducts from "@/app/api/route";
+import DetailSelection from "@/components/DetailSelection";
 
 export default function page({ params: { slug } }) {
   const products = getProducts();
@@ -22,6 +23,7 @@ export default function page({ params: { slug } }) {
     (product) => product.id != productId
   );
   // console.log(similarProducts);
+
   return (
     <>
       <div className="detailed-page-hero-section">
@@ -30,7 +32,6 @@ export default function page({ params: { slug } }) {
         </div>
         <div className="mid-detailed-hero">
           <h1>{product.title}</h1>
-
           <p>{product.brief_description}</p>
           <div className="detailedPagePricing">
             <h5 className="price">$5036</h5>
@@ -38,7 +39,7 @@ export default function page({ params: { slug } }) {
               <MdDocumentScanner className="discountIcon" /> Add discount Code
             </h5>
           </div>
-          <div className="selected-item-details">
+          {/* <div className="selected-item-details">
             <div className="top-item-details">
               <p className="activeDetail">Detail</p>
               <p>Ingrediates</p>
@@ -61,7 +62,8 @@ export default function page({ params: { slug } }) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+          <DetailSelection data={products} />
         </div>
         <div className="right-detailed-hero">
           <div className="cta cta1">

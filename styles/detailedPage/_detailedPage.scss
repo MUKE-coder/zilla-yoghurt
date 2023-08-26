@@ -3,6 +3,7 @@
   display: flex;
   padding: 1rem 3rem;
   width: 100vw;
+  overflow: hidden;
   font-family: $default-font;
   height: 73vh;
   @media (max-width: 768px) {
@@ -22,7 +23,7 @@
       width: 100%;
     }
     img {
-      box-shadow: rgba(0, 0, 0, 0.25) 5px 25px 20px -20px;
+      // box-shadow: rgba(0, 0, 0, 0.25) 5px 25px 20px -20px;
     }
   }
   .mid-detailed-hero {
@@ -56,31 +57,47 @@
       }
     }
     .selected-item-details {
-      margin: 1rem 0;
-      .top-item-details {
-        border: 1px solid rgb(206, 206, 216);
-        width: 83%;
-        padding: 0.4rem 0.4rem;
-        border-radius: 3rem;
+      // background-color: red;
+
+      .options {
+        margin-top: rem;
         display: flex;
+        padding: 0.3rem 0.7rem;
+        width: 70%;
+        border-radius: 3rem;
         justify-content: space-between;
-        //         gap: 1rem;
-        p {
-          padding: 0.3rem 2rem;
-          border-radius: 3rem;
+        cursor: pointer;
+        border: 1px solid rgb(103, 101, 101);
+        gap: 2rem;
+        align-items: center;
+        @media (max-width: 768px) {
+          width: 93%;
         }
-        .activeDetail {
+        p {
+          border-radius: 3rem;
+          padding: 0.3rem;
+        }
+        .activeTab {
           background-color: blue;
+          padding: 0.5rem 2rem;
           color: white;
         }
       }
-      .bottom-item-details {
-        //         background-color: rgb(31, 139, 31);
-        padding: 0.7rem;
+      .details {
+        padding: 1rem 0.2rem;
         .details-option {
           display: flex;
-          gap: 1rem;
         }
+      }
+      .ingredients {
+        display: none;
+      }
+      .directions {
+        display: none;
+      }
+      .activeDetails {
+        display: block;
+        padding: 1rem 0;
       }
     }
   }
@@ -121,13 +138,23 @@
 }
 .similarProducts {
   // background-color: green;
-  padding: 1rem 3rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  @media (max-width: 768) {
+    padding: 1rem;
+  }
+  h1 {
+    padding: 1rem 0;
+  }
   @media (max-width: 768) {
     padding: 1rem 0.5rem;
     width: 100%;
   }
   .productsWrapper {
     display: flex;
+    justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
     width: 100vw;

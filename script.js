@@ -24,8 +24,8 @@ export const toward = [
 // Array of strings
 export const siteMap = {
   title: "SITEMAP",
-  left: ["Home", "About Us", "History", "Quality standards"],
-  right: ["Our Products", "our impact", "media center", "contact us"],
+  left: ["Home", "About Us", "Quality standards"],
+  right: ["Our Products", "our impact", "contact us"],
 };
 
 // Two separate arrays

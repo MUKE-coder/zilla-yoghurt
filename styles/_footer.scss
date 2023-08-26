@@ -6,7 +6,7 @@ $primColor: #08004f;
   margin-top: 4rem;
   font-family: "Roboto", sans-serif;
   height: 63vh;
-
+  padding: 2rem 0.4rem;
   background-color: $primColor;
   color: white;
   gap: 2rem;
@@ -39,9 +39,14 @@ $primColor: #08004f;
       width: 100%;
     }
     .links {
-      gap: 0.2rem;
-      .left-site-links {
+      display: flex;
+      gap: 0.5rem;
+      .left-site-links,
+      .right-site-links {
         // background-color: red;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
         a {
           display: flex;
           align-items: center;
@@ -75,17 +80,12 @@ $primColor: #08004f;
     }
   }
   .Instagram {
-    .inst-links {
-      display: grid;
-      margin-top: 1rem;
-      gap: 1rem;
-      grid-template-columns: repeat(auto-fit, minmax(4rem, 3fr));
-      @media (max-width: 768px) {
-        // grid-template-columns: repeat(auto-fit, minmax(2rem, 3fr));
-      }
-      a {
-        padding: 0.1rem 0rem;
-      }
+    .icon {
+      font-size: 1.5rem;
+      background-color: white;
+      color: black;
+      font-weight: 900;
+      margin: 2px 4px;
     }
     .loadBtn {
       background-color: rgb(68, 67, 67);

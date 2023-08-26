@@ -1,8 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
-import { BiLogoFacebook, BiLogoInstagram } from "react-icons/bi";
-import { FaWhatsapp } from "react-icons/fa";
+import Socialicons from "./Socialicons";
 export default function Banner() {
   return (
     <div className="banner">
@@ -11,15 +10,7 @@ export default function Banner() {
           <TfiHeadphoneAlt className="icon" />
           <span>0708904404</span>
         </Link>
-        <Link href="#" className="cta-link">
-          <BiLogoFacebook className="icon" />
-        </Link>
-        <Link href="#" className="cta-link">
-          <BiLogoInstagram className="icon" />
-        </Link>
-        <Link href="#" className="cta-link">
-          <FaWhatsapp className="icon" />
-        </Link>
+        <Socialicons />
       </div>
     </div>
   );

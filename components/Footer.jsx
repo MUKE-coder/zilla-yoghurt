@@ -4,6 +4,7 @@ import { siteMap, products, contact } from "@/script";
 import Image from "next/image";
 import { instaLink } from "@/script";
 import Link from "next/link";
+import Socialicons from "./Socialicons";
 
 export default function Footer() {
   return (
@@ -44,14 +45,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="lato Instagram Feed">
-        <h1 className="footer-title btmLine">Instagram Feed</h1>
-        <div className="inst-links">
-          {instaLink.link.map((link) => (
-            <Link href={"#"}>
-              <Image src={link} alt="" width={80} height={80} />
-            </Link>
-          ))}
-        </div>
+        <h1 className="footer-title btmLine">Social Media</h1>
+        <Socialicons /> <br></br>
         <button className="loadBtn">Load More</button>
       </div>
       <div
